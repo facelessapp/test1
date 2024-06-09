@@ -1,0 +1,101 @@
+* {
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+ size: 100vw 100vh;
+}
+
+/* Style the top navigation bar */
+.topnav {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: row;
+   background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  
+   display: flex;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+   background-color: #ddd;
+   color: black;
+}
+
+/* Style the content */
+.content {
+   background-color: #ddd;
+   padding: 10% 10%;
+   flex: content;
+   justify-content: center;
+   
+   
+}
+
+/* звонок и оплата*/
+.footer {
+   display: flex;
+   align-items: center;
+   background-color: #f1f1f1;
+   padding: 10px;
+}
+
+.CallOrder {
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.CallOrder:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.CallOrder:active {
+	position:relative;
+	top:1px;
+}
+
+        
+.TelegramPayment {
+   box-shadow: 0px 10px 14px -7px #9fb4f2;
+   background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+   background-color:#7892c2;
+   border-radius:8px;
+   display:inline-block;
+   cursor:pointer;
+   color:#ffffff;
+   font-family:Arial;
+   font-size:20px;
+   font-weight:bold;
+   padding:13px 32px;
+   text-decoration:none;
+   text-shadow:0px 1px 0px #283966;
+}
+.TelegramPayment:hover {
+   background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+   background-color:#476e9e;
+}
+.TelegramPayment:active {
+   position:relative;
+   top:1px;
+}
